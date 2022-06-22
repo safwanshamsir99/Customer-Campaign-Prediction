@@ -7,7 +7,7 @@
 <a><img alt='tf' src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"></a>
 ![customer campaign](static/customer_campaign.jpg)
 
-# Outcome Prediction Using Deep Learning Model for Customer Campaign.
+# Outcome Prediction Using a Simple Two-Layers Deep Learning Model for Customer Campaign.
  Trained over 31,000 data to predict the outcome of the term deposit subscription by customer based on a campaign.
 
 ## Description
