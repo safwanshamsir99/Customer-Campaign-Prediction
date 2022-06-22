@@ -15,8 +15,8 @@
 2. Based on the dataset description, the dataset contains details of marketing campaigns done via phonecall with various details for customers such as demographics, last campaign details, many more.
 3. The dataset contains 6 continuous features, 10 categorical features, 1 categorical target. It has no duplicate data but has a lot of NaNs especially for 'days_since_prev_campaign_contact' column. The dataset can be downloaded from the link given in the credit section below.
 4. The only features selected from the dataset are all of the continuous columns since they have the highest correlation to the target, which is outcome of the campaign.
-5. By using the simple two layer deep learning model, 
-6. Methods that can be used to improve the model such as increasing the amount of data to be train and reducing the outliers.
+5. By using the simple two layer deep learning model which only comprises of Dense, Dropout, and Batch Normalization layers, the model successfully achieved 90.1% accuracy.
+6. Methods that used to improve the deep learning model are by increasing the number of epochs inside the model and by using the early stopping callbacks to prevent the model from overfitting. 
 
 ### Deep learning model image
 ![model_score](static/model.png)
@@ -32,11 +32,11 @@ Model score:
 ![model_score](static/model_score.png)
 
 ## Discussion
-1. The best machine learning model achieved 85.7% accuracy during model testing. 
-2. Recall and f1 score report 93% and 89% respectively. 
-3. After the deployment of the Streamlit app, 10 new data inside the Assignment 1.pdf file were tested by key in the data needed, 8 over 10 data outputs were predicted correctly. The other two data that give the wrong outputs are the row of age 45 and age 69.
-![streamlit_heart](static/streamlit_heart.png)
-![test_case](static/test_case.PNG)
+1. The deep learning model achieved 90.1% accuracy during the model evaluation. 
+2. Recall and f1 score reported 99% and 95% respectively. 
+3. Early stopping callback was used to prevent overfitting of the deep learning model, and during the model training, the epochs stop at 32.
+4. Tensorboard was used to visualize the the loss and accuracy graph of the model. The snipping shot from the tensorboard is shown below.
+![tensorboard](static/tensorboard_campaign.png.png)
 
 ## Credits:
 Shout out to Kunal Gupta from Kaggle for the Customer Segmentation Dataset. Check out the dataset by clicking the link below. :smile:
