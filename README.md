@@ -22,13 +22,17 @@
 ![model_score](static/model.png)
 
 ## Results
-Training loss & Validation loss:
+
+### Training loss & Validation loss:
+
 ![model_loss](static/loss_campaign.png)
 
-Training accuracy & Validation accuracy:
+### Training accuracy & Validation accuracy:
+
 ![model_accuracy](static/accuracy_campaign.png)
 
-Model score:
+### Model score:
+
 ![model_score](static/model_score.png)
 
 ## Discussion
