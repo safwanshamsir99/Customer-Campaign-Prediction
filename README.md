@@ -11,7 +11,7 @@
  Trained over 31,000 data to predict the outcome of the term deposit subscription by customer based on a campaign.
 
 ## Description
-1. The project's objective is to predict the chance the outcome of a campaign based on the customer's data
+1. The project's objective is to predict the outcome of a campaign based on the customer's data
 2. Based on the dataset description, the dataset contains details of marketing campaigns done via phonecall with various details for customers such as demographics, last campaign details, many more.
 3. The dataset contains 6 continuous features, 10 categorical features, 1 categorical target. It has no duplicate data but has a lot of NaNs especially for 'days_since_prev_campaign_contact' column. The dataset can be downloaded from the link given in the credit section below.
 4. The only features selected from the dataset are all of the continuous columns since they have the highest correlation to the target, which is outcome of the campaign.
