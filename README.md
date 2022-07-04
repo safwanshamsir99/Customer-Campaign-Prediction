@@ -37,7 +37,10 @@
 
 ## Discussion
 1. The deep learning model achieved 90.1% accuracy during the model evaluation. 
-2. Recall and f1 score reported 99% and 95% respectively. 
+2. Recall and f1 score reported 99% and 95% respectively for outcome 0 of term_deposit_subscribed. But for outcome 1, the f1-score value is very low due to the  imbalance dataset. The total count of term_deposit_subscribed which is equal to 0 is way higher than 1, which causes imbalance of data and inaccurate prediction of the model. Thus, adding more data may help to improve the model.
+
+![model_loss](static/term_deposit_subscribed_campaign.png)
+
 3. Early stopping callback was used to prevent overfitting of the deep learning model, and during the model training, the epochs stop at 32.
 4. Tensorboard was used to visualize the the loss and accuracy graph of the model. The snipping shot from the tensorboard is shown below.
 ![tensorboard](static/tensorboard_campaign.png.png)
